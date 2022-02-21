@@ -1,3 +1,5 @@
+Hola Manu, soy Hector
+
 -- Creamos la BD
 drop database if exists parque_tematico;
 create database if not exists parque_tematico;
