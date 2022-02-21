@@ -24,6 +24,7 @@ public class Main {
 			System.out.println("3.Listar cuentas");
 			System.out.println("x.Salir");
 			System.out.println("4.Eliminar Cuenta");
+
 			System.out.println("---------------------------");
 			resp = sc.nextLine();
 			System.out.println("***************************");
@@ -118,7 +119,7 @@ public class Main {
 						ing = sc.nextLine();
 						i = new BigDecimal(ing);
 						if(i.intValue()<=0) {
-							System.out.println("Ingreso no vàlido");
+							System.out.println("Ingreso no vÃ lido");
 							error=true;
 						}
 					}catch(NumberFormatException e) {
