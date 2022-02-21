@@ -4,6 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
+//Editado por Joan
+//Ramon no sabe de Java
+
 import excepciones.SaldoInsuficiente;
 
 public class Main {
