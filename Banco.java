@@ -3,8 +3,8 @@ import java.util.LinkedList;
 
 public class Banco {
 	private String nombre;
-	private LinkedList<Cuenta> cuentas;
-	private LinkedList<Cliente> clientes;
+	private LinkedList<registro> registros;
+	private LinkedList<Persona> personas;
 	//clase cuentas para clientes
 	public Banco(String n) {
 		this.nombre=n;
