@@ -1,3 +1,5 @@
+Hola Manu, soy Hector
+
 -- Creamos la BD
 drop database if exists tienda_libros;
 create database if not exists tienda_libros;
