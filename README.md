@@ -1,6 +1,6 @@
 # Asturix-On
 ## Manuel
-#### Cosas añadidas
+#### Archivos añadidos
 ##### - El Registro
 ##### - Una carpteta que sera la página principal con estos archivos dentro:QuienesSomos.html,comprar.html y un index dentro.
 ##### - 01.practica.sql
