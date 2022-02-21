@@ -1,5 +1,7 @@
 package pro9;
 
+Hola Joan, soy Hector
+
 public class Edad {
 	private int edad;
 	private int min;
