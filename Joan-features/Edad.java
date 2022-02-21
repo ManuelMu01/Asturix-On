@@ -1,11 +1,9 @@
 package pro9;
 
-Hola Joan, soy Hector
-
 public class Edad {
 	private int edad;
-	private int min;
-	private int max;
+	private int minimun;
+	private int maximun;
 	
 	public Edad(int min, int max) {
 		if (min>max) {
@@ -14,8 +12,8 @@ public class Edad {
 		if (min<0) {
 			throw new RangoIncorrectoException("El valor mínimo es menor a 0");
 		}
-		this.min=min;
-		this.max=max;
+		this.minimun=min;
+		this.maximun=max;
 	}
 	
 	public int getEdad() {
