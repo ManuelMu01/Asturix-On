@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Registro</title>
+	</head>
+	<body>
+		<center>
+		<br><br><br>
+		<h1>Registro<h1>
+		
+		<form action="../05.hacer2paginas/index.html" method="get" style="center">
+			<table>
+				<tr> <td><label for="nombre">Nombre</label></td> <td><label for="apellidos">Apellidos</label></td> <td></td> </tr>
+				<tr> <td><input type="fname" name="nombre" id="nombre"/></td> <td colspan="2"><input type="fname" name="apellidos" id="apellidos" size="34"/></td></tr>
+				<tr> <td><label for="Gmail">Email</label></td> <td></td> <td><label for="nacimiento">Fecha de nacimiento</label></td> </tr>
+				<tr> <td colspan="2"><input type="email"name="email" id="Gmail" size="35"></td> <td><input type="date" name="nacimiento" id="nacimiento" /></td> </tr>
+				<tr> <td><label for="Hobbies">Hobbies</label></td> <td></td> <td></td> </tr>
+				<tr> <td><input type="checkbox" id="cocina" name="cocina"value="cocina"/><label for="cocina">Cocina</label></td> <td><label for="Genero">Genero</label></td> <td><label for="Nacionalidad">Nacionalidad</label></td> </tr>
+				<tr> <td><input type="checkbox" id="futbol" name="futbol"value="futbol"/><label for="futbol">Futbol</label></td> <td><input type="radio" name="Generos" id="Masculino" value="Masculino"/><label for="Masculino">Masculino</label></td> <td><select name="Nacionalidades" id="Nacionalidad"/><option selected /><option value="ESP">España</option><option value="FRA">Francia</option><option value="ENG">Reino Unido</option><option value="ALE">Alemania</option><option value="POL">Polonia</option><option value="FRA">Francia</option><option value="SUI">Suiza</option></td> </tr>
+				<tr> <td><input type="checkbox" id="gimnasia" name="gimnasia"value="gimnasia"/><label for="gimnasia">Gimnasia</label></td> <td><input type="radio" name="Generos" id="Femenino" value="Femenino"/><label for="Femenino">Femenino</label></td> <td></td> </tr>
+				<tr> <td><input type="checkbox" id="otro" name="otro"value="otro"/><label for="otro">Otro</label></td> <td><label for="observaciones">Observaciones</label></td> <td></td> </tr>
+				<tr> <td></td> <td colspan="2"><textarea name="observaciones" id="observaciones" rows="7" cols="30"></textarea></td> <td></td> </tr>
+				<tr> <td></td> <td></td> <td> <input type="reset" value="Restablecer"/> <input type="submit" value="Enviar"/></td> </tr>
+			</table>
+		</form>
+	</body>
+</html>
