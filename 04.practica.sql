@@ -4,6 +4,8 @@ create database if not exists musica;
 -- indicamos que vamos a trabajar con la BD musica
 use musica;
 
+//Este trebajo en grùpo me ha traido demasiados dolores de cabeza
+
 create table concientos (
 con_codcon int unsigned primary key,
 con_fecha datetime not null,
