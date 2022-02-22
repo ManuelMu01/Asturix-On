@@ -1,4 +1,4 @@
-Hola Ramon, soy Hector
+Hola Joan, soy Hector
 
 public class Cliente {
 	private String nombre;
