@@ -5,7 +5,7 @@ public class Main {
 	static Scanner sc=new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		Edad edad=null;
+		Edad edades=null;
 		boolean error=true;
 		
 		Edad a1=new Edad(1,100);
@@ -23,16 +23,16 @@ public class Main {
 		
 		do {
 			try {
-				System.out.println("Edad mínima:");
+				System.out.println("Edad mï¿½nima:");
 				int v = Integer.parseInt(sc.nextLine());
-				System.out.println("Edad máxima:");
+				System.out.println("Edad mï¿½xima:");
 				int v2 = Integer.parseInt(sc.nextLine());
-				edad = new Edad(v, v2);
+				edaddes = new Edad(v, v2);
 				error=false;
 			} catch (RangoIncorrectoException e) {
 				System.out.println("Valores incorrectos!!!");
 			} catch (NumberFormatException e) {
-				System.out.println("La edad debe ser un número entero!!");
+				System.out.println("La edad debe ser un nï¿½mero entero!!");
 			}
 		} while (error);
 		
@@ -47,7 +47,7 @@ public class Main {
 			} catch (NumberFormatException e) {
 				System.out.println("Edad incorrecta!!!");
 			} catch (EdadFueraDeRangoException e) {
-				System.out.println("La edad debe estar entre "+edad.getMin()+" y "+edad.getMax());
+				System.out.println("La edad debe estar entre "+edades.getMin()+" y "+edades.getMax());
 			}
 		} while (error);
 
