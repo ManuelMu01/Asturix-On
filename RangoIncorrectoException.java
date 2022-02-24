@@ -1,12 +1,11 @@
-package pro9;
 
-public class RangoInperfectoException extends RuntimeException {
+public class RangoIncorrectoException extends RuntimeException {
 	
-	public RangoInperfectoException() {
+	public RangoIncorrectoException() {
 		super();
 	}
 	
-	public RangoInperfectoException(String msg) {
+	public RangoIncorrectoException(String msg) {
 		super(msg);
 	}
 

@@ -1,6 +1,5 @@
-package pro9;
 
-public class EdadFueraDeRangoException extends RuntimeException{
+public class EdadFueraDeRangoException extends RuntimeException {
 	
 	public EdadFueraDeRangoException() {
 		super();
