@@ -14,10 +14,10 @@
 
 # Ramon
 -He creado los archivos de "prototipos banco" y he modificado los variables de joan en "Edad.java", tambien hes sido el encargado de 
-crear todas la ramas para el correcto funcionamiento del proyecto.
--He subido archivos en mi rama 
--He hecho una pull request i resuelto cnflictos en el archivo README
--He cambiado el archivo 01 practica.sql en la rama manu-features
+crear todas la ramas para el correcto funcionamiento del proyecto.<br>
+-He subido archivos en mi rama <br>
+-He hecho una pull request i resuelto cnflictos en el archivo README<br>
+-He cambiado el archivo 01 practica.sql en la rama manu-features<br>
 # Juan
 En el Main.java de Ramon(Ramon-features) he dejado 2 comentarios.<br>
 En el Banco.java de Ramon(Ramon-features) he cambiado la variable Cuenta y cuentas por registro y registros, y las variables Cliente y clientes por persona y personas<br>
