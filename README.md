@@ -17,7 +17,7 @@
 crear todas la ramas para el correcto funcionamiento del proyecto.
 -He subido archivos en mi rama 
 -He hecho una pull request i resuelto cnflictos en el archivo README
--He cambiado el archivo 
+-He cambiado el archivo 01 practica.sql en la rama manu-features
 # Juan
 En el Main.java de Ramon(Ramon-features) he dejado 2 comentarios.<br>
 En el Banco.java de Ramon(Ramon-features) he cambiado la variable Cuenta y cuentas por registro y registros, y las variables Cliente y clientes por persona y personas<br>
