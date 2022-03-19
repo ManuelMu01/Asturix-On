@@ -1,0 +1,37 @@
+INFORMACION DEL PROYECTO
+
+De cada pagina creada se ha tenido crear una copia con cambios para diferenciar en la que no te has logeado o registrado y en la que si.
+
+Héctor Heredia:
+  Ha realizado la pagina de contacto y sus respectivos estilos.
+  La cesta ha sido tambien creada y estilizada por el.
+  Ha creado 4 paginas mas que sirven de producto para cada respectiva categoria, cuando entres en un producto te saldra una de esas 4 paginas que contienen informacion sobre productos. 
+
+Manuel Muñoz:
+  Ha creado el deslizar del inicio del index, el formato de las zapatillas que sale al principio del index, rellenar los productos del index, el index en general.
+  Ha puesto los logos de perfil y salir de la cuenta y junto al grupo a cambiar todas las refs que funcionasen mal.
+  Ha creado el perfil.html mujeres.html mujeresSesionIniciada.html y sus respectivos productos
+  Ha añadido algunas cosas en cesta.html y contactos.html ej voton volver, fondo y crear el producto zapatillas dunks.
+  
+Ramon Artigues:
+  Ha hecho el icono de la página.
+  Ha creado el CSS titulo de la página.
+  El CSS del footer y la barra de navegación(nav).
+  El CSS de las paginas donde se ven productos de cada categoria.
+  Las páginas de hombres y descuentos y sus respectivos productos.
+  Principal tecnico de errores en el CSS. 
+
+Joan Riudala:
+  Ha creado el inicio de sesion y su respectivo estilos.
+  El registro y su estilo.
+  He creado niños y equipamientos con sus respectivos productos dentro.
+  He creado un botoncito fijo con icono y estilos para acceder al carrito en todas las paginas.
+
+Comun:
+  Todos hemos ido contribuyendo en las paginas y estilos de los compañeros:
+    -Establecer rutas.
+    -Correccion de texto, codigo y estilos.
+    -Ajustar imagenes.
+    -Diseño.
+    -Duplicado de paginas para las paginas de sesion iniciada.
+    -Contribuciones varias como botones entre otras cosas.

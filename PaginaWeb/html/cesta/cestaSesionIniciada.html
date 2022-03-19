@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DDR Esports</title>
+    <link rel="stylesheet" href="../../css/cesta.css" />
+    <link rel="icon" href="../../img/icono.png" type="image/x-icon"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  </head>
+  <body>
+    <header>
+      <h1 class="h1header">DDR Esports</h1>
+    </header>
+
+    <!-- lista -con barra de navegacion--mejor si es ordenada  -->
+    <nav>
+      <ul class="nav">
+          <li class="nav">
+              <a href="../InicioSesion/PagIniciaSesion.html"><button class="buttonNav">
+                <i class="material-icons" style="color:whitesmoke; font-size:22px; padding:0;">home</i>
+    
+              </button></a>
+            </li>
+        <li class="nav">
+          <a href="../paginas/mujeres.html"><button class="buttonNav">Mujer</button></a>
+        </li>
+        <li class="nav">
+          <a href="../paginas/hombres.html"><button class="buttonNav">Hombre</button></a>
+        </li class="nav">
+        <li class="nav">
+          <a href="../paginas/ninos.html"><button class="buttonNav">Niños</button></a>
+        </li>
+        <li class="nav">
+          <a href="../paginas/equipamiento.html"><button class="buttonNav">Equipamiento</button></a>
+        </li>
+        <li class="nav">
+          <a href="../paginas/descuentos.html"><button class="buttonNav">Descuentos</button></a>
+        </li>
+        <li class="nav">
+        <a href="../Contacto/contactoIniciadoSesion.html"><button class="buttonNav">Contacto</button></a>
+        </li>
+        <li class="nav">
+          <a href="../../index.html">
+            <button class="right">
+              <span class="material-icons">
+                logout
+              </span>
+            </button>
+          </a>
+        </li>
+        <li class="nav">
+          <a href="perfil.html">
+            <button class="right">
+              <span class="material-icons"> account_circle </span>
+            </button>
+          </a>
+        </li>
+        </ul>
+        </nav>
+
+
+
+<h1 id="micesta">Mi cesta</h1>
+<div class="cesta">
+    <table>
+        <tr>
+          <td><img class="productos" src="../../img/productos/1.Contenido.jpg" id="pantalon"</img></td>
+          <td>Pantalones negros gym</td>
+          <td>29,99€</td>
+        </tr>
+      </table>
+    </div>
+     
+<br><br>
+    
+<div class="cesta2">
+    <table>
+        <tr>
+         <h1>Te interesa algo mas?<h1> 
+          <td><img class="productos" src="../../img/productos/camiseta-ninos-algodon-basica-rojo.jpg" id="niño"</img></td>
+          <td>Camiseta niño roja</td>
+          <td>14,99€</td>
+          <td> Color: <select name="color" id="color">
+              <option value="nada"></option>
+              <option value="rojo">Rojo</option>
+              <option value="verde">Verde</option></td>
+          <td> <button type="input" id="button" onclick="alert('Añadiste el producto')">Añadir</button></td>
+        </tr>
+      </table>
+    </div>
+    
+  <div class="total">
+    <p id="resumen">Resumen del pedido</p><br>
+    <p>Subtotal: 29.99€</p>
+    <p>Total del pedido: 29.99€</p>
+
+   <form action="../../html/cesta/compracestaSesionIniciada.html">
+    <button type="input" id="pagar">Pagar</button>
+   </div>
+   </form>
+
+   <br><br>
+
+     
+   
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DDR Sports</title>
+    <link rel="stylesheet" href="../../css/iniSesion.css" />
+    <link rel="icon" href="../../img/icono.png" type="image/x-icon" />
+  </head>
+  <body>
+    <form action="#" method="POST">
+      <div id="login">
+        <h2>Registrarse</h2>
+        <div class="form">
+          <div class="item">
+            <label>Nombre de usuario:</label><br />
+            <input type="text" placeholder="Tu usuario" name="username" />
+          </div>
+          <br />
+          <div class="item">
+            <label>Email:</label><br />
+            <input type="text" placeholder="Email" name="username" />
+          </div>
+          <br />
+          <div class="item">
+            <label>Genero:</label><br />
+
+            <label class="radios" for="masc">Hombre</label>
+            <input
+              class="radios"
+              type="radio"
+              id="masc"
+              name="genero"
+              value="H"
+            />
+            <br />
+            <label class="radios" for="fem">Mujer</label>
+            <input
+              class="radios"
+              type="radio"
+              id="fem"
+              name="genero"
+              value="M"
+            />
+            <br />
+            <label class="radios" for="other">Otro</label>
+            <input
+              class="radios"
+              type="radio"
+              id="other"
+              name="genero"
+              value="O"
+            />
+          </div>
+          <br />
+          <div class="item">
+            <label for="nacio">País:</label><br />
+            <select id="nacio" name="nacio">
+              <option value="Esp">España</option>
+              <option value="Ing">Inglaterra</option>
+              <option value="Alm">Alemania</option>
+              <option value="Itl">Italia</option>
+              <option value="Frn">Francia</option>
+              <option value="Sui">Suiza</option>
+              <option value="Ukr">Ukrania</option>
+            </select>
+          </div>
+          <br />
+          <div class="item">
+            <label>Contraseña:</label><br />
+            <input type="password" placeholder="********" name="password" />
+          </div>
+          <br />
+          <div class="item">
+            <label>Repite la contraseña:</label><br />
+            <input type="password" placeholder="********" name="password2" />
+          </div>
+        </div>
+        <br />
+        <a href="PagIniciaSesion.html" class="boton"> Enviar </a>
+        <br /><br />
+        <a href="../../index.html" class="boton"> Volver </a>
+        <br /><br />
+      </div>
+    </form>
+  </body>
+</html>

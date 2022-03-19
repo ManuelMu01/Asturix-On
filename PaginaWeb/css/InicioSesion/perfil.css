@@ -1,0 +1,115 @@
+.texto {
+  text-align: center;
+  height: 320px;
+  padding: 12px;
+  background-image: url("../../img/perfil/fondo.jpg");
+}
+.formatocara {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#iconoHome {
+  color: white;
+  font-size: 50px;
+  float: left;
+  margin-left: 15px;
+}
+button:hover {
+  background-color: rgb(58, 55, 104);
+  font-weight: bold;
+}
+.nombre {
+  font-size: 23px;
+  margin-top: 16px;
+  color: white;
+}
+.redes {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.iconos {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+/* Enlaces */
+a.primer:link {
+  color: red;
+}
+
+/* visited link */
+a.primer:visited {
+  color: rgb(236, 128, 4);
+}
+
+/* mouse over link */
+a.primer:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.primer:active {
+  color: blue;
+}
+
+.prefMarca {
+  padding: 60px;
+}
+
+.prefMarca h3 {
+  color: rgb(85, 85, 85);
+  font-size: 16px;
+}
+.prefMarca ul {
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+}
+/*cosas del titulo*/
+body,
+html {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /*padding-top: 1px;
+  padding-bottom: 7px;
+ 
+  display: flexbox;
+  margin-top: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(45, 45, 233, 1) 18%,
+    rgba(14, 164, 194, 1) 47%,
+    rgba(94, 224, 250, 1) 75%  );*/
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 7px;
+  display: flexbox;
+  margin-top: 0;
+  background-image: url(../../img/fondoTitulo.jpg);
+  background-size: 32px;
+  color: antiquewhite;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  color: white;
+  background: rgb(93, 93, 94);
+  width: 100%;
+}
